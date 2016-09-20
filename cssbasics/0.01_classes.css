@@ -1,0 +1,25 @@
+/*You can use this to target things in the other code. So you can change the color of every "important" class*/
+/*It has to be ul class="important" for it to work. Class is the key word*/
+body{
+	background-color: lightblue;
+}
+
+.bob{
+	color: black;
+	font-family: courier;
+	font-size: 100px;
+	font-style: italic;
+	background-color: blue;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #ff0000;
+	text-align: center;
+	margin-left: 50%;
+
+}
+
+.p1{
+	color: black;
+	background-color: red;
+	margin-right: 50%
+
+}
