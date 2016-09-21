@@ -23,8 +23,8 @@ if ((personAge >= 18) && (registeredVote === true)) {
 }
 
 //Modulus operator %, returns the remainder.
-// console.log(10 % 5); //returns zero
-// console.log(4 % 3); //returns a ramainder of 1
+
+//I need to mess with this more. I'm not very good at it
 
 var numOne = 8;
 
