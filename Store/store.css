@@ -1,0 +1,99 @@
+/*NavBar(ovbiously)*/
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f46d6d;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #d6c8c8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s ease;
+  font-size: 18px;
+}
+
+ul.topnav li a:hover {
+  background-color: #FFFFFF;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+
+/*NavBar Mods*/
+
+@media screen and (max-width: 680px) {
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/*Food Pic*/
+
+.mainFood img {
+  width: 400px;
+  height: auto;
+
+}
+
+/*Headers*/
+
+.header-1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: white, #0F0908;
+  letter-spacing: 8px;
+  font-size: 50px;
+  font-weight: ;
+}
+
+.header-2 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 30px;
+}
+
+.header-3 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 30px;
+}
+
+.header-4 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: monospace, sans-serif;
+  font-weight: ;
+  font-size: 40px;
+}
+
+
+
+
